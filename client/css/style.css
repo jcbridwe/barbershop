@@ -291,9 +291,9 @@ font-weight: 700; text-transform: uppercase;}
 
 .team-wraper {position: relative; float: left; width: 100%; padding-top: 20px;}
 .wraper-sub-title {position: relative; float: left; width: 100%;}
-.team-block {position: relative; float: left; width: 30.5%; margin-right: 4.25%; padding-bottom: 50px;}
+.team-block {position: relative; float: left; width: 45.5%; margin-right: 4.25%; padding-bottom: 50px;}
 .team-block:last-child {margin-right: 0%;}
-.team-block img {width: 100%; height: auto;}
+.team-block img {width: 100%; height: 550px;}
 .layer-image {position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.5); opacity: 0;transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in;-moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;-ms-transition: all 0.3s ease-in;}
 .team-title {position: absolute; width: 100%; text-align: center; bottom: 100px; left: 0px; opacity: 0;transition: all 0.3s ease-out;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;}
 .team-title span {color: #DFA240;font-size: 14px;font-weight: 700;}

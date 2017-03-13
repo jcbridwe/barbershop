@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/custom.css"/>
   
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/ie9.css"/>
@@ -25,35 +26,64 @@
  
  </head>
  <body>
-     <div class="preload"><ul class="loader"><li></li><li></li><li></li></ul></div>
+     <!--<div class="preload"><ul class="loader"><li></li><li></li><li></li></ul></div>-->
      
      <!-- ==================HEADER===================== -->
      
-      <header>
-         <div class="container">
-            <div class="row">
-                <div class="header">
-                    <div class="logo"><a href="index.html"><img src="images/card1.jpeg" alt="Logo"></a></div>
-                       <div class="navigation">                           
-                           <nav>
-                             <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
-                             <span class="close-menu">X</span>
-                              <a href="index.html">HOME</a>
-                              <a href="services.html">SERVICE</a>                              
-                              <!--<a href="product.html">SHOPS</a>-->
-                              <a href="team.html">OUR TEAM</a>
-                              <a href="price.html">PRICING</a>
-                              <a href="contact.html">CONTACT</a>
-                           </nav>   
-                       </div>
-                       <div class="mobile-menu">
-                           <img src="images/mobile.png" alt="menu">
-                       </div>    
-                    </div>
+     <header>
+        <div class="container">
+         <div class="row">
+          <!--<div class="header">-->
+           <!--<div class="navigation">-->
+            <nav class="navbar navbar-inverse  navbar-fixed-top">
+              <!--<div class="container-fluid">-->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                  </button>
+                  <!--<a class="navbar-brand navbar-left" href="index.html"><img src="images/card1.jpeg" alt="Logo"></a>-->
                 </div>
-            </div>   
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="team.html">OUR TEAM</a></li>
+                    <li><a href="price.html">PRICING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+                </div>
+              <!--</div>-->
+            </nav>
+           <!--</div> -->
+          <!--</div>-->
          </div>
-      </header>
+           <!--<div class="row">-->
+           <!--    <div class="header">-->
+           <!--        <div class="logo"><a href="index.html"><img src="images/card1.jpeg" alt="Logo"></a></div>-->
+           <!--           <div class="navigation" id="bs-example-navbar-collapse-1">                           -->
+           <!--               <nav>-->
+           <!--                 <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>-->
+           <!--                 <span class="close-menu">X</span>-->
+           <!--                  <a href="index.html">HOME</a>-->
+           <!--                  <a href="services.html">SERVICE</a>                              -->
+                             <!--<a href="product.html">SHOPS</a>-->
+           <!--                  <a href="team.html">OUR TEAM</a>-->
+           <!--                  <a href="price.html">PRICING</a>-->
+           <!--                  <a href="contact.html">CONTACT</a>-->
+           <!--               </nav>   -->
+           <!--           </div>-->
+           <!--           <div class="mobile-menu">-->
+           <!--               <img src="images/mobile.png" alt="menu">-->
+           <!--           </div>    -->
+           <!--        </div>-->
+           <!--    </div>-->
+           <!--</div>   -->
+        </div>
+     </header>
         
      <div class="container-fluid">
          <!-- ==================HOME PAGE===================== -->
@@ -95,7 +125,6 @@
              </div>
          </div>
      </div>
-
      <div class="container main-wpapper">
 
          <!-- ==================ABOUT PAGE===================== -->
@@ -110,9 +139,10 @@
              </div>
              <div class="row" align="center">
                  <div class="creative">
-                     <div class="col-md-8">
-                         <div class="about-50-img">
-                            <p align="center"><iframe width="1150" height="700" src="https://www.youtube.com/embed/hp767D9Do5g" frameborder="0" allowfullscreen></iframe></p>
+                     <div class="col-lg-12 col-md-12 col-sm-12">
+                         <!--<div class="about-50-img">-->
+                         <div class="responsive-video">
+                           <p align="center"><iframe width="1150" height="700" src="https://www.youtube.com/embed/hp767D9Do5g" frameborder="0" allowfullscreen></iframe></p>
                          </div>
                      </div>
                      <!--<div class="col-md-6">-->
@@ -408,22 +438,22 @@
                          <p>A former brain surgeon, Chris left his old job to pursue his real passion; hair engineering. </p>
                      </div>
                  </div>
-                 <div class="team-block">
-                     <div class="wraper-sub-title">
-                         <div class="layer-image">
-                             <div class="team-title">
-                                 <h4>PEGGY POPE</h4>
-                                 <span>/</span>
-                                 <p>Hair Stylist/Color Expert</p>
-                             </div>
-                         </div>
-                         <img src="images/employee.jpeg" alt="team">
-                     </div>
-                     <div class="sub-title">
-                         <span></span>
-                         <p>Peggy Pope is our color expert. Her shaves and cuts are legendary throughout the land!</p>
-                     </div>
-                 </div>
+                 <!--<div class="team-block">-->
+                 <!--    <div class="wraper-sub-title">-->
+                 <!--        <div class="layer-image">-->
+                 <!--            <div class="team-title">-->
+                 <!--                <h4>PEGGY POPE</h4>-->
+                 <!--                <span>/</span>-->
+                 <!--                <p>Hair Stylist/Color Expert</p>-->
+                 <!--            </div>-->
+                 <!--        </div>-->
+                 <!--        <img src="images/employee.jpeg" alt="team">-->
+                 <!--    </div>-->
+                 <!--    <div class="sub-title">-->
+                 <!--        <span></span>-->
+                 <!--        <p>Peggy Pope is our color expert. Her shaves and cuts are legendary throughout the land!</p>-->
+                 <!--    </div>-->
+                 <!--</div>-->
              </div>
              <div class="view-button">
                  <a href="team.html">View More</a>
