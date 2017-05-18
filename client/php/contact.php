@@ -4,6 +4,7 @@
 define( "RECIPIENT_NAME", "Justin Bridwell" );
 define( "RECIPIENT_EMAIL", "jcbridwe@gmail.com" );
 define( "EMAIL_SUBJECT", "Englewood Barbershop Contact Message" );
+echo "test";
 
 // Read the form values
 $success = false;
